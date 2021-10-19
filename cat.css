@@ -102,7 +102,7 @@ body{
     border-radius: 0 0 5px 5px;
     top: 38px;
     left: 27px;
-    animation: mouth-move 2s infinite;
+    animation: mouth-move 3s infinite;
     transform-origin: top;
 }
 
@@ -120,12 +120,12 @@ body{
     right: 65px;
     bottom: 0;
     border-radius: 60px 60px 0 0 ;
-    animation: sleep 2s infinite;
+    animation: sleep 3s infinite;
     transform-origin:bottom right; 
 }
 @keyframes sleep{
     50%{
-        transform: scale(0.9, 1.05);
+        transform: scale(0.9, 1.1);;
     }
 }
 
@@ -140,7 +140,16 @@ body{
     border-radius: 20px 0 0 20px;
 
 }
+.partTail{
+    background-color: #ffffff;
+    height: 20px;
+    width: 30px;
+    position: absolute;
+    right: 230px;
+    bottom: 0;
+    border-radius: 20px 0 0 20px;
 
+}
 
 .body:before{
     content: '';
@@ -179,7 +188,7 @@ body{
     position: absolute;
     bottom: 52px;
     left: 70px;
-    animation: shadow 2s infinite;
+    animation: shadow 3s infinite;
 }
 
 @keyframes shadow{
